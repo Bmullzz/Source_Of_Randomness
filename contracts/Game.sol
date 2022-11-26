@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
-  pragma solidity ^0.8.4;
+pragma solidity ^0.8.4;
 
-  contract Game {
+contract Game {
     constructor() payable {}
 
     /**
@@ -36,4 +36,4 @@
         return address(this).balance;
     }
 
-  }
+}
